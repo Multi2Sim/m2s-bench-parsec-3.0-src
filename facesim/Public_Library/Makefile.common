@@ -251,7 +251,7 @@ endif
 # Extra flags defined by user
 CC_FLAGS += $(EXTRA_DEFS)
 
-LINK_FLAGS += -xW -lm -L$(PHYSBAM_LIBDIR) $(LDFLAGS) $(LIBS)
+LINK_FLAGS += -xW -lm -L$(PHYSBAM_LIBDIR) $(LDFLAGS) $(LIBS) -static
 
 # More type-specific flags (put quotes around strings so "debug" won't match "optdebug"
 ifneq ($(findstring "$(TYPE)","release" "optdebug" "noalamere"),)

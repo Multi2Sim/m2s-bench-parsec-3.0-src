@@ -42,7 +42,7 @@ LIBFLEX=-L${CURDIR}/../FlexImageLib -lflex
 all: bodytrack
 
 bodytrack: $(OBJS)
-	$(CXX) $(IFLAG) -pthread -o $@ $^ $(LIBFLEX) $(LIBTHREADS)
+	$(CXX) $(IFLAG) -pthread -static -o $@ $^ $(LIBFLEX) $(LIBTHREADS)
 
 %.o: %.cpp
 	$(CXX) -c $(IFLAG) -pthread -o $@ $<

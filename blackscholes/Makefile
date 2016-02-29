@@ -53,6 +53,7 @@ NCO = -DNCO=2
 endif
 
 CXXFLAGS += -m32 $(MT) $(NCO) $(FUNC) $(ERR) $(CSRC)
+LDFLAGS = -static
 
 all: $(TARGET)
 
