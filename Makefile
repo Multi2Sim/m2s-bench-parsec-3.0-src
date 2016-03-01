@@ -1,12 +1,16 @@
 SUBDIRS = \
 	blackscholes \
 	bodytrack \
-	facesim 
+	facesim \
+	fluidanimate 
 
 BINARIES = \
 	blackscholes/blackscholes \
 	bodytrack/bodytrack \
-	facesim/facesim_exe
+	facesim/facesim_exe \
+	fluidanimate/fluidanimate \
+	fluidanimate/fluidcmp
+	 
 
 DATA_FILES = \
 	blackscholes/data-medium \
