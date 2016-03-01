@@ -1,1 +1,1 @@
-CXXFLAGS += -m32
+CXXFLAGS += -m32 -static
