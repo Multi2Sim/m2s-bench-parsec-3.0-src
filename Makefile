@@ -2,7 +2,9 @@ SUBDIRS = \
 	blackscholes \
 	bodytrack \
 	facesim \
-	fluidanimate 
+	fluidanimate \
+	freqmine \
+	swaptions 
 
 BINARIES = \
 	blackscholes/blackscholes \
