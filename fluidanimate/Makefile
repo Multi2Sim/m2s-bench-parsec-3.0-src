@@ -11,9 +11,9 @@ clean:
 	rm -f *.o	
 else
 all:
-	$(MAKE) -f Makefile.serial all
+	$(MAKE) -f Makefile.pthreads all
 
 clean:
-	$(MAKE) -f Makefile.serial clean
+	$(MAKE) -f Makefile.pthreads clean
 	rm -f *.o	
 endif
