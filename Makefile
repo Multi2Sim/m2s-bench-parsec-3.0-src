@@ -1,6 +1,7 @@
 SUBDIRS = \
 	blackscholes \
 	bodytrack \
+	canneal \
 	facesim \
 	fluidanimate \
 	freqmine \
