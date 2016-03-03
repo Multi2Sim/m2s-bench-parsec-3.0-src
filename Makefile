@@ -5,6 +5,7 @@ SUBDIRS = \
 	facesim \
 	fluidanimate \
 	freqmine \
+	streamcluster \
 	swaptions 
 
 BINARIES = \
