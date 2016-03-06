@@ -52,8 +52,8 @@ ifdef double
 NCO = -DNCO=2
 endif
 
-CXXFLAGS += -m32 $(MT) $(NCO) $(FUNC) $(ERR) $(CSRC)
-LDFLAGS = -static
+CXXFLAGS += -m32 $(MT) $(NCO) $(FUNC) $(ERR) $(CSRC) -lpthread
+LDFLAGS = -static 
 
 all: $(TARGET)
 

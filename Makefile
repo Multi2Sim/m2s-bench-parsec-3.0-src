@@ -3,6 +3,7 @@ SUBDIRS = \
 	bodytrack \
 	canneal \
 	facesim \
+	ferret \
 	fluidanimate \
 	freqmine \
 	streamcluster \
